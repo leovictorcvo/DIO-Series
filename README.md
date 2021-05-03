@@ -4,7 +4,7 @@
 
 Aplicação console desenvolvida durante o bootcamp da [Take Blip](https://https://www.take.net/) na [Digital Innovation One - DIO](https://digitalinnovation.one/). 
 
-Este projeto tem como finalidade manter um cadastro de séries favoritas utilizando a linguagem C#. Foi desenvolvida como uma 
+Este projeto tem como finalidade manter um cadastro de séries favoritas utilizando a linguagem C#.
 
 ## :wrench: Características
 
