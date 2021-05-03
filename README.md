@@ -12,6 +12,7 @@ Este projeto tem como finalidade manter um cadastro de séries favoritas utiliza
 - Armazenamento na memória
 - Utilizado o padrão Repository
 - Utilizado o padrão Singleton
+- Utilizado XUnit para testes
 
 ## :floppy_disk: Clonar repositório
 
