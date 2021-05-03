@@ -9,6 +9,8 @@ namespace Console_in_memory_repository.Data
         private static SeriesRepository instance;
         private readonly List<Series> series = new List<Series>();
 
+        private SeriesRepository() {}
+
         public static SeriesRepository GetInstance()
         {
             if (instance == null)
@@ -37,6 +39,11 @@ namespace Console_in_memory_repository.Data
         public void Update(int id, Series entity)
         {
             series[id - 1] = entity;
+        }
+
+        public void ClearAll()
+        {
+            series.Clear();
         }
     }
 }

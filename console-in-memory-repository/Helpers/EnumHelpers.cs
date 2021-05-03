@@ -10,7 +10,7 @@ namespace Console_in_memory_repository.Helpers
             var result = new List<string>();
             foreach (var value in Enum.GetValues(typeof(T)))
             {
-                result.Add($"{(int)value} - {(T)value}");
+                result.Add($"{Convert.ToInt32(value)} - {(T)value}");
             }
             return result;
         }

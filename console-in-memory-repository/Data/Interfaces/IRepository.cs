@@ -11,5 +11,6 @@ namespace Console_in_memory_repository.Data.Interfaces
         void Update(int id, T entity);
         void Delete(int id);
         int GetNextId();
+        void ClearAll();
     }
 }
